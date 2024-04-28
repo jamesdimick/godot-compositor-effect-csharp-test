@@ -18,7 +18,7 @@ namespace JD
 	 * The first 3 steps are implemented as compute shaders, the last is a
 	 * raster pass.
 	 */
-	[Tool]
+	[Tool,GlobalClass]
 	public partial class TestCompositorEffect : CompositorEffect
 	{
 		[Export] public bool HalfSize = true;
