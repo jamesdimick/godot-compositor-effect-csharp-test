@@ -1,0 +1,20 @@
+[gd_resource type="CompositorEffect" load_steps=2 format=3 uid="uid://suhhv20fx5dy"]
+
+[ext_resource type="Script" path="res://Scripts/TestCompositorEffect.cs" id="1_ej5ku"]
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+enabled = true
+effect_callback_type = 4
+needs_motion_vectors = true
+needs_normal_roughness = true
+script = ExtResource("1_ej5ku")
+HalfSize = true
+SunLocation = Vector3(0, 1, 0)
+SunSize = 150.0
+SunFadeSize = 50.0
+RadialBlurSamples = 32
+RadialBlurRadius = 150.0
+RadialBlurEffectAmount = 0.9
+GaussianBlurSize = 16.0
